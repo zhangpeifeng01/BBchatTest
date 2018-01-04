@@ -24,7 +24,7 @@ public class TestOne {
             mDevice = UiDevice.getInstance(InstrumentationRegistry.getInstrumentation());
             mDevice.pressHome();
             mDevice.pressHome();
-            UiObject x=mDevice.findObject(new UiSelector().text("联系人"));
+            UiObject x=mDevice.findObject(new UiSelector().index(8));
             x.click();
 
         }
